@@ -29,7 +29,8 @@ main{
       z-index:1;
       float:right;
       width:300px;
-    
+      margin:10px;
+        
     }
 
   p{ padding:10px;
