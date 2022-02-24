@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&family=Staatliches&display=swap');
+body{ background-color: rgb(247, 248, 195);}
+#content {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+  } 
+  h1{ padding: 20px;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    position:relative;
+    }
+  h2{ padding:10px;
+    float:left;
+    font-family: 'Spartan', sans-serif;
+    position: relative;
+    }
+  #profile_picture{ 
+      max-width: 100%;
+      position: relative;
+      z-index:1;
+      float:right;
+      width:300px;
+    }
+
+  p{ padding:10px;
+    text-align: left;
+    font-family: 'Staatliches', cursive;
+    }
+  header {
+    max-width: 1000px;
+    background-color: #ea6518;
+    align-items: center;
+    justify-content: center;
+    line-height: 3em;
+    border-radius: 10px;
+    }
+  footer {
+    max-width: 100px;
+    background-color: #ea6518;
+    align-items: center;
+    justify-content: center;
+    line-height: 2em;
+    border-radius: 10px;
+  }
+  li {
+    text-align: justify;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.2em;
+}
