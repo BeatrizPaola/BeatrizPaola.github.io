@@ -16,6 +16,10 @@ body{ background-color: rgb(247, 248, 195);}
     position: relative;
     max-width: 1100px;
     }
+main{
+  margin:90px;
+  padding-bottom:1px;
+}
 .Title{
   float:none;
 }
@@ -25,6 +29,7 @@ body{ background-color: rgb(247, 248, 195);}
       z-index:1;
       float:right;
       width:300px;
+    
     }
 
   p{ padding:10px;
