@@ -1,3 +1,3 @@
 let dateTime = document.lastModified;
 
-document.querySelector("#lastUpdated").textContent = ("This document was last modified: " + dateTime);
+document.getElementById('lastUpdated').appendChild(document.createElement("center")).innerText = "Last Updated: " + document.lastModified
