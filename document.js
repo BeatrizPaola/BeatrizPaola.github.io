@@ -1,3 +1,3 @@
-var string = document.lastModified;
+let dateTime = document.lastModified;
 
-alert(document.lastModified);
+document.getElementById("modify").innerHTML = document.lastModified
