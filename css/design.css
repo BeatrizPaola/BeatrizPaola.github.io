@@ -1,37 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&family=Staatliches&display=swap');
-@media (max-width: 850px) { 
+@media (max-width: 927px) { 
+    main .content {grid-template-areas:"Pageleft Pageleft Pageleft Pagecenter Pagecenter Pagecenter"
+                                        "Pagerigth Pagerigth Pagerigth 1 1 1"}
     h1{ font-size: 3em;}
     h2{ font-size: 1.5em;}
-    .profile_picture{
-        border-radius:10px;
-        float:right; }
+ 
 }
+@media screen and (max-width: 649px) {
+    main .content {
+      grid-template-areas: "Pageleft Pageleft Pageleft Pageleft Pageleft Pageleft"
+                            "Pagecenter Pagecenter Pagecenter Pagecenter Pagecenter Pagecenter"
+                            "Pagerigth Pagerigth Pagerigth Pagerigth Pagerigth Pagerigth ";
+      grid-template-rows: auto;
+    }
+    
+  }
+
 body{ background-color: rgb(247, 248, 195);}
 .content {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "Pageleft Pagecenter Pagerigth";
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "Pageleft Pageleft Pagecenter Pagecenter Pagerigth Pagerigth";
     grid-gap:10px;
     width: auto;
     margin: 0 auto;
     background-color: #ffffff;
   } 
 .Pageleft{
-    grid-area:"Pageleft";
+    grid-area:Pageleft;
     margin:5px;
     border: 2px solid #ffc300;
+  grid-template-rows: repeat(5, 1fr);
 
 }
+.Pageleft h2{font-size:1.5em;}
 .Pagecenter{
-    grid-area:"Pagecenter";
+  
+    grid-area:Pagecenter;
     margin:5px;
   border: 2px solid #ffc300;
+  grid-template-rows: repeat(5, 1fr);
 
 }
 .Pagerigth{
-    grid-area:"Pagerigth";
+    grid-area:Pagerigth;
     margin:5px;
   border: 2px solid #ffc300;
+  grid-template-rows: repeat(5, 1fr);
 
 }
   h1{ padding: 20px;
@@ -41,6 +56,7 @@ body{ background-color: rgb(247, 248, 195);}
     position:relative;
     }
   h2{ 
+    text-align: center;
     grid-column: 1/2;
     grid-row: 1/2;
     padding:20px;
@@ -59,8 +75,9 @@ a {
   grid-row: 3/4; 
   margin: 15px;  
   text-align:center; 
-}
-a: hover{
+  }
+
+a:hover{
   color:#ea6518; 
 }
 main{
@@ -71,20 +88,24 @@ main{
   float:none;
 }
 img{ 
-      max-width: 90%;
-      position: relative;
-      z-index:1;
-      width:300px;
-      margin:10px;
-      height: 430px;
-    padding:5px;
-  
+  max-width: 95%;
+  text-align:center;
+  width:300px;
+  margin:10px;
+  height: 430px;
+  padding:5px;
+  grid-column: 1/2;
+  grid-row: 4/5;
         
     }
 
-  p{ padding:10px;
-    text-align: left;
+  p{ padding:15px;
+    text-align: center;
     font-family: 'Spartan', sans-serif;
+    grid-column: 1/2;
+  grid-row: 5/6;
+  
+    
     }
   header {
     width: auto;
@@ -95,20 +116,14 @@ img{
     border-radius: 10px;
     }
   footer {
-    max-width: 1100px;
+    position: relative;
     background-color: #ea6518;
     align-items: center;
     justify-content: center;
     line-height: 2em;
     border-radius: 10px;
   }
-  li {
-    text-align: justify;
-    font-family: 'Staatliches', cursive;
-    font-size: 1.2em;
-    padding:2px;
-    
-}
+
 .info{text-align:center;}
 #lastUpdated{
 text-align:center;}
