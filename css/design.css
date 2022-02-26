@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&family=Staatliches&display=swap');
+@media (max-width: 850px) { 
+    h1{ font-size: 3em;}
+    h2{ font-size: 1.5em;}
+    .profile_picture{
+        border-radius:10px;
+        float:right; }
+}
+body{ background-color: rgb(247, 248, 195);}
+.content {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "Pageleft Pagecenter Pagerigth";
+    grid-gap:10px;
+    width: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+  } 
+.Pageleft{
+    grid-area:"Pageleft";
+    margin:5px;
+    border: 2px solid #ffc300;
+
+}
+.Pagecenter{
+    grid-area:"Pagecenter";
+    margin:5px;
+  border: 2px solid #ffc300;
+
+}
+.Pagerigth{
+    grid-area:"Pagerigth";
+    margin:5px;
+  border: 2px solid #ffc300;
+
+}
+  h1{ padding: 20px;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    font-size: 2em;
+    position:relative;
+    }
+  h2{ 
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding:20px;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5em;
+    }
+h3{
+  font-family: 'Spartan', sans-serif;
+  font-size: 1em;
+  text-align:center;
+  grid-column:1/2;
+  grid-row:2/3;
+}
+a {
+  grid-column: 1/2;
+  grid-row: 3/4; 
+  margin: 15px;  
+  text-align:center; 
+}
+a: hover{
+  color:#ea6518; 
+}
+main{
+  margin:90px;
+  padding-bottom:1px;
+}
+.Title{
+  float:none;
+}
+img{ 
+      max-width: 90%;
+      position: relative;
+      z-index:1;
+      width:300px;
+      margin:10px;
+      height: 430px;
+    padding:5px;
+  
+        
+    }
+
+  p{ padding:10px;
+    text-align: left;
+    font-family: 'Spartan', sans-serif;
+    }
+  header {
+    width: auto;
+    background-color: #ea6518;
+    align-items: center;
+    justify-content: center;
+    line-height: 3em;
+    border-radius: 10px;
+    }
+  footer {
+    max-width: 1100px;
+    background-color: #ea6518;
+    align-items: center;
+    justify-content: center;
+    line-height: 2em;
+    border-radius: 10px;
+  }
+  li {
+    text-align: justify;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.2em;
+    padding:2px;
+    
+}
+.info{text-align:center;}
+#lastUpdated{
+text-align:center;}
