@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Skranji:wght@700&family=Spartan:wght@100&display=swap');
-@media (max-width: 927px) { 
-    main .content {grid-template-areas:"Pageleft Pageleft Pageleft Pagecenter Pagecenter Pagecenter"
-                                        "Pagerigth Pagerigth Pagerigth 1 1 1"}
-    h1{ font-size: 3em;}
-    h2{ font-size: 1.5em;}
- 
-}
-@media screen and (max-width: 649px) {
-    main .content {
-      grid-template-areas: "Pageleft Pageleft Pageleft Pageleft Pageleft Pageleft"
-                            "Pagecenter Pagecenter Pagecenter Pagecenter Pagecenter Pagecenter"
-                            "Pagerigth Pagerigth Pagerigth Pagerigth Pagerigth Pagerigth ";
-      grid-template-rows: auto;
-    }
-    
-  }
+
 nav ul { display: flex; }
 nav ul li { flex: 1 1 auto; } 
 nav {
@@ -23,12 +8,16 @@ nav {
 	max-width: 780px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
+li{
+  font-family: 'Spartan', sans-serif;
+  padding:10px;
+  color:black;
+}
 body{ background-color: #FFF5BE;}
 
 .content {
     display:grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "Pageleft Pageleft Pagecenter Pagecenter Pagerigth Pagerigth";
     grid-gap:10px;
     width: auto;
     margin: 0 auto;
@@ -45,8 +34,7 @@ body{ background-color: #FFF5BE;}
     }
   h2{ 
     text-align: center;
-    grid-column: 1/2;
-    grid-row: 1/2;
+    
     padding:20px;
     font-family: 'Staatliches', cursive;
     font-size: 25px;
@@ -55,8 +43,6 @@ h3{
   font-family: 'Spartan', sans-serif;
   font-size: 20px;
   text-align:center;
-  grid-column:1/2;
-  grid-row:2/3;
 }
 a {
   grid-column: 1/2;
@@ -82,16 +68,27 @@ img{
   margin:10px;
   height: 430px;
   padding:5px;
-  grid-column: 1/2;
-  grid-row: 4/5;
+ 
         
     }
-
+#site_typography{
+  font-family: 'Spartan', sans-serif;
+}
+table{
+ border: solid 1px;
+}
+table tr{
+  font-family: 'Spartan', sans-serif;
+  color: black;
+  
+}
+table td{
+  background-color: white;
+  padding: 10px;
+}
   p{ padding:15px;
     text-align: center;
     font-family: 'Spartan', sans-serif;
-    grid-column: 1/2;
-  grid-row: 5/6;
   
     
     }
