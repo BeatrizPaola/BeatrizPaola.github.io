@@ -5,7 +5,7 @@ nav ul li { flex: 1 1 auto; }
 nav {
 	background-color: #F36A08;
 	margin: 0 auto;
-	max-width: 780px;
+	max-width: auto;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
 li{
@@ -16,10 +16,8 @@ li{
 body{ background-color: #FFF5BE;}
 
 .content {
-    display:grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap:10px;
-    width: auto;
+    
+    width: 1000;
     margin: 0 auto;
     background-color: #ffffff;
   } 
@@ -44,9 +42,7 @@ h3{
   font-size: 20px;
   text-align:center;
 }
-a {
-  grid-column: 1/2;
-  grid-row: 3/4; 
+a { 
   margin: 15px;  
   text-align:center; 
   }
@@ -57,9 +53,6 @@ a:hover{
 main{
   margin:90px;
   padding-bottom:1px;
-}
-.Title{
-  float:none;
 }
 img{ 
   max-width: 95%;
@@ -76,7 +69,15 @@ img{
 }
 table{
  border: solid 1px;
+ text-align: center;
+ 
 }
+.primary{
+  background-color: #14213D;
+	color:white;}
+.secondary{background-color:#F36A08;}
+.accent1{background-color: #FFBA08;}
+.accent2{background-color:#FFF5BE;}
 table tr{
   font-family: 'Spartan', sans-serif;
   color: black;
@@ -86,10 +87,12 @@ table td{
   background-color: white;
   padding: 10px;
 }
+table th{
+  background: white;
+}
   p{ padding:15px;
     text-align: center;
     font-family: 'Spartan', sans-serif;
-  
     
     }
   header {
@@ -100,6 +103,10 @@ table td{
     line-height: 3em;
     border-radius: 10px;
     }
+  .siteheader{
+    font-size:48px;
+  }
+
   footer {
     position: relative;
     background-color: #ea6518;
