@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@700&family=Spartan:wght@100&display=swap');
 @media (max-width: 927px) { 
     main .content {grid-template-areas:"Pageleft Pageleft Pageleft Pagecenter Pagecenter Pagecenter"
                                         "Pagerigth Pagerigth Pagerigth 1 1 1"}
@@ -15,8 +15,16 @@
     }
     
   }
+nav ul { display: flex; }
+nav ul li { flex: 1 1 auto; } 
+nav {
+	background-color: #F36A08;
+	margin: 0 auto;
+	max-width: 780px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+body{ background-color: #FFF5BE;}
 
-body{ background-color: rgb(247, 248, 195);}
 .content {
     display:grid;
     grid-template-columns: repeat(6, 1fr);
@@ -26,36 +34,13 @@ body{ background-color: rgb(247, 248, 195);}
     margin: 0 auto;
     background-color: #ffffff;
   } 
-.Pageleft{
-    grid-area:Pageleft;
-    padding:15px;
-    margin:5px;
-    border: 2px solid #ffc300;
-  grid-template-rows: repeat(5, 1fr);
+  h1, h2, h3 {
+    font-family: 'Skranji', cursive;
+  }
 
-}
-.Pageleft h2{font-size:1.5em;}
-.Pagecenter{
-  
-    grid-area:Pagecenter;
-    margin:5px;
-    padding:15px;
-  border: 2px solid #ffc300;
-  grid-template-rows: repeat(5, 1fr);
-
-}
-.Pagerigth{
-    grid-area:Pagerigth;
-    margin:5px;
-    padding:15px;
-  border: 2px solid #ffc300;
-  grid-template-rows: repeat(5, 1fr);
-
-}
   h1{ padding: 20px;
     text-align: center;
-    font-family: 'Spartan', sans-serif;
-    font-size: 2em;
+    font-size: 30px;
     position:relative;
     }
   h2{ 
@@ -64,11 +49,11 @@ body{ background-color: rgb(247, 248, 195);}
     grid-row: 1/2;
     padding:20px;
     font-family: 'Staatliches', cursive;
-    font-size: 1.5em;
+    font-size: 25px;
     }
 h3{
   font-family: 'Spartan', sans-serif;
-  font-size: 1em;
+  font-size: 20px;
   text-align:center;
   grid-column:1/2;
   grid-row:2/3;
@@ -81,7 +66,7 @@ a {
   }
 
 a:hover{
-  color:#ea6518; 
+  color:#14213D; 
 }
 main{
   margin:90px;
