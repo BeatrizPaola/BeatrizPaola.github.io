@@ -28,6 +28,7 @@ body{ background-color: rgb(247, 248, 195);}
   } 
 .Pageleft{
     grid-area:Pageleft;
+    padding:15px;
     margin:5px;
     border: 2px solid #ffc300;
   grid-template-rows: repeat(5, 1fr);
@@ -38,6 +39,7 @@ body{ background-color: rgb(247, 248, 195);}
   
     grid-area:Pagecenter;
     margin:5px;
+    padding:15px;
   border: 2px solid #ffc300;
   grid-template-rows: repeat(5, 1fr);
 
@@ -45,6 +47,7 @@ body{ background-color: rgb(247, 248, 195);}
 .Pagerigth{
     grid-area:Pagerigth;
     margin:5px;
+    padding:15px;
   border: 2px solid #ffc300;
   grid-template-rows: repeat(5, 1fr);
 
