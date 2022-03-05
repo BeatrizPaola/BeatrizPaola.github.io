@@ -7,9 +7,23 @@ header{
     color:white;
     padding:10px;
 }
+.content{
+    display:block;
+    margin:10px auto;
+    border: 1px dashed #000;
+    padding:15px;
+    background-color:#eee;
+    color:#444;
+    font-style: italic;
+}
 h1{
     font-size: 50px;
     font-family: 'Skranji', cursive;
+}
+title{
+    font-family: 'Skranji', cursive;
+    text-align:center;
+    font-size:45px;
 }
 .motto{
     font-size:20px;
@@ -32,6 +46,12 @@ nav {
     }
  .navigation li:first-child {
     display: block;}
+.navigation li {
+    display: none;
+}
+responsive li {
+    display: block;
+}
 
 .navigation a:hover{
     background-color: #F36A08;}
@@ -49,7 +69,12 @@ color:white;
 .media img{
     width:40px;
 }
-footer{
+.upfooter{
+    display:flex;
+    
+}
+footer
+{
     margin: 10px auto;
     position: relative;
     background-color: #ea6518;
@@ -58,8 +83,7 @@ footer{
     line-height: 1.5em;
     font-family:'Spartan', sans-serif;
     font-weight:bolder;
-    padding:5px;
-    
+    padding:5px; 
 }
 footer img{
     width:25px;
