@@ -6,8 +6,22 @@ header{
     background-color: #14213D;
     color:white;
     padding:10px;
+    max-width:1000px; 
+    margin:0 auto;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    
 }
+main{
+    padding-top:10rem;}
 .content{
+    
+    max-width:1000px; 
+    margin:0 auto;
+}
+.content-box{
     display:block;
     margin:10px auto;
     border: 1px dashed #000;
@@ -20,7 +34,7 @@ h1{
     font-size: 50px;
     font-family: 'Skranji', cursive;
 }
-title{
+.title{
     font-family: 'Skranji', cursive;
     text-align:center;
     font-size:45px;
@@ -38,23 +52,24 @@ nav {
     font-family:'Spartan', sans-serif;
     background-color: #FFBA08;
     max-width:1000px;
+    margin: 0 auto;
     font-weight: bold;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
     
 }
 .navigation {
     list-style: none;
+    overflow: hidden;
     }
  .navigation li:first-child {
     display: block;}
+
 .navigation li {
     display: none;
 }
-responsive li {
-    display: block;
-}
-
 .navigation a:hover{
-    background-color: #F36A08;}
+    background-color: #F36A08;
+    transition: 0.5s;}
 
 .navigation a{
     display:block;
@@ -65,13 +80,16 @@ nav a{
 color:white;  
     
 }
+.personal_information{
+    padding:50px;
+}
 
 .media img{
     width:40px;
 }
 .upfooter{
     display:flex;
-    
+    padding:10px;
 }
 footer
 {
@@ -84,10 +102,46 @@ footer
     font-family:'Spartan', sans-serif;
     font-weight:bolder;
     padding:5px; 
+    max-width:1000px;
+    margin: 0 auto;
 }
 footer img{
     width:25px;
 }
 footer a{
     color:black;
+}
+
+@media (max-width:767px){
+    nav {
+    font-size:20px;
+    font-family:'Spartan', sans-serif;
+    background-color: #FFBA08;
+    max-width:100%;
+    margin: 0 auto;
+    font-weight: bold;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    
+}
+.navigation {
+    list-style: none;
+    overflow: hidden;
+    }
+ .navigation li:first-child {
+    display: block;}
+
+.navigation li {
+    display: none;
+}
+
+
+.navigation a:hover{
+    background-color: #F36A08;
+    transition: 0.5s;}
+
+.navigation a{
+    display:block;
+    padding: 10px;
+}
+
 }
