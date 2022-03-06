@@ -1,7 +1,14 @@
-const hambutton = document.querySelector('.ham');
-const mainnav = document.querySelector('.navigation')
-
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+JQuery("document").ready(function($){
+var menuBTn = $(".menu-icon"),
+	menu=$(".navigation");
+menuBTn.click(function(){
+	if (menu.hasClass("show")){
+		menu.removeClass("show");
+	} else{
+		menu.addClass("show");
+	}
+});
+});
 const daynames = [
 	"Sunday",
 	"Monday",
