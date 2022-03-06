@@ -159,18 +159,23 @@ footer a{
 }
 @media (max-width:604px){
     h1{
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Skranji', cursive;
        
 }
     header{
         background-color: #ea6518;
     }
+    .logo{
+    width:80px;}
+    
     .menu-icon{
-    font-size:25px;
+    font-size:15px;
     padding:0;
     
 }
+    .motto{
+    font-size:15px;
     .upfooter{
         display:block;
     }
