@@ -1,4 +1,4 @@
-JQuery("document").ready(function($){
+jQuery("document").ready(function($){
 var menuBTn = $(".menu-icon"),
 	menu=$(".navigation");
 menuBTn.click(function(){
