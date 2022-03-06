@@ -12,14 +12,17 @@ header{
     top:0;
     left:0;
     right:0;
+    z-index:2;
     
 }
 main{
-    padding-top:10rem;}
+    padding-top:14rem;
+z-index:1;}
 .content{
     
     max-width:1000px; 
     margin:0 auto;
+    
 }
 .content-box{
     display:block;
@@ -29,6 +32,7 @@ main{
     background-color:#eee;
     color:#444;
     font-style: italic;
+    
 }
 h1{
     font-size: 50px;
@@ -38,6 +42,7 @@ h1{
     font-family: 'Skranji', cursive;
     text-align:center;
     font-size:45px;
+    
 }
 .motto{
     font-size:20px;
@@ -47,25 +52,38 @@ h1{
 .logo{
     width:150px;
 }
+.menu-icon{
+    display:none;
+}
 nav {
     font-size:20px;
     font-family:'Spartan', sans-serif;
     background-color: #FFBA08;
-    max-width:1000px;
+    max-width:900px;
     margin: 0 auto;
     font-weight: bold;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-    
+    padding-top:11rem;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1;
 }
 .navigation {
     list-style: none;
-    overflow: hidden;
+    margin:0;
+    padding:0;
+   
     }
- .navigation li:first-child {
-    display: block;}
 
-.navigation li {
-    display: none;
+.navigation li{
+    display: inline-block;
+}
+.navigation li a {
+    display:block;
+    
+    
 }
 .navigation a:hover{
     background-color: #F36A08;
@@ -112,36 +130,49 @@ footer a{
     color:black;
 }
 
-@media (max-width:767px){
-    nav {
-    font-size:20px;
+@media (max-width:855px){
+.menu-icon{
+    display:block;
+    cursor:pointer;
+    padding:0.5 rem 1 rem;
     font-family:'Spartan', sans-serif;
-    background-color: #FFBA08;
-    max-width:100%;
-    margin: 0 auto;
-    font-weight: bold;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    margin-top:8rem;
     
 }
-.navigation {
-    list-style: none;
-    overflow: hidden;
-    }
- .navigation li:first-child {
+ .navigation li {
     display: block;}
-
-.navigation li {
-    display: none;
-}
-
-
-.navigation a:hover{
-    background-color: #F36A08;
-    transition: 0.5s;}
+    .navigation {
+        display:none;
+    }
+    .navigation.show{
+        display:block;
+    }
 
 .navigation a{
     display:block;
     padding: 10px;
 }
+     .upfooter{
+        display:block;
+    }
 
+}
+@media (max-width:604px){
+    h1{
+    font-size: 40px;
+    font-family: 'Skranji', cursive;
+       
+}
+    header{
+        background-color: #ea6518;
+    }
+    .menu-icon{
+    font-size:25px;
+    padding:0;
+    
+}
+    .upfooter{
+        display:block;
+    }
+    
 }
