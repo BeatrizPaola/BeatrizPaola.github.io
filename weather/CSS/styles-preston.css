@@ -38,6 +38,7 @@ h1{
     font-size: 50px;
     font-family: 'Skranji', cursive;
 }
+
 .title{
     font-family: 'Skranji', cursive;
     text-align:center;
@@ -98,16 +99,16 @@ nav a{
    text-decoration: none; 
 color:white;     
 }
-picture{
+picture img{
     width:100%;
 }
 .img-summary{
     position:relative;
     margin: 10px auto;
 }
-.summary {
+.img-summary section{
 	position: absolute;
-	background: radial-gradient(#eee, #F36A08);
+	background: radial-gradient(#eee, #FFBA08);
 	border: 1px solid #000;
 	padding: 1.5rem;
 	box-shadow: 0 0 30px #333;
@@ -237,8 +238,13 @@ footer a{
     .upfooter{
         display:block;
     }
-    .summary{
+    .img-summary section{
         position: static;
         opacity: 1;
-}
+		padding:5px;
+		font-family: 'Spartan', sans-serif;
+		font-weight:bold;
+		background: radial-gradient(#eee,#ea6518);
+		
+	}
 }
