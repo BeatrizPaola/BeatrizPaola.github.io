@@ -50,6 +50,12 @@ h1{
     padding:0px;
     font-family: 'Spartan', sans-serif;
         }
+p{
+    font-size:18px;
+    padding:0px;
+    font-family: 'Spartan', sans-serif;
+	font-weight: bolder;
+        }
 .logo{
     width:150px;
 }
@@ -153,6 +159,22 @@ picture img{
 	font-size: 0.8rem;
 	text-align: center;
 }
+
+.artimg{
+	float:right;
+	width:100%;
+	max-width:550px;
+	padding-left: 30px;
+	padding-bottom:15px;
+	
+}
+.artinfo{
+	padding-top:35px;
+	padding-bottom:35px;
+	padding-left: 10px;	
+	padding-right: 10px;
+	justify-content:center;
+}
 .personal_information{
     padding:50px;
 }
@@ -178,6 +200,7 @@ footer
     max-width:1000px;
     margin: 0 auto;
 }
+
 footer img{
     width:25px;
 }
@@ -208,6 +231,12 @@ footer a{
 .navigation a{
     display:block;
     padding: 10px;
+}
+	.artimg{
+	
+	width:100%;
+	
+	
 }
      .upfooter{
         display:block;
@@ -247,4 +276,7 @@ footer a{
 		background: radial-gradient(#eee,#ea6518);
 		
 	}
+	footer iframe{
+	width:100%;
+}
 }
