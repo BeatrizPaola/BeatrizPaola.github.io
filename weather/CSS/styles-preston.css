@@ -122,6 +122,22 @@ picture img{
     bottom:10px;
     left:10px;
 }
+.label {
+    visibility: hidden;
+    position: absolute;
+    color: #ffd311;
+    top: 10px;
+    right: 30px;
+}
+
+.label:after {
+    visibility: Visible;
+    position: absolute;
+    color: #ffd311;
+    top: 10px;
+    right: 30px;
+    content: "Large";
+}
 .flex{
     display:flex;
     flex-flow: row wrap;
@@ -234,9 +250,10 @@ footer a{
 }
 	.artimg{
 	
-	width:100%;
-	
-	
+	width:100%;	
+}
+.label:after {
+    content: "Medium";
 }
      .upfooter{
         display:block;
@@ -273,9 +290,11 @@ footer a{
 		padding:5px;
 		font-family: 'Spartan', sans-serif;
 		font-weight:bold;
-		background: radial-gradient(#eee,#ea6518);
-		
+		background: radial-gradient(#eee,#ea6518);	
 	}
+    .label:after {
+        content: "Small";
+    }
 	footer iframe{
 	width:100%;
 }
