@@ -48,7 +48,14 @@ if (dayName == "Friday") {
 
 	document.body.insertBefore(banner,document.body.childNodes[0]).style.fontSize = "x-large";
 	document.body.insertBefore(banner,document.body.childNodes[0]).style.textAlign = "center";
-	document.body.insertBefore(banner,document.body.childNodes[0]).style.padding = "20px 20px 20px 20px";
+	document.body.insertBefore(banner,document.body.childNodes[0]).style.padding = "10px 10px 10px 10px";
 	document.body.insertBefore(banner,document.body.childNodes[0]).style.backgroundColor = "#f5cf87";
+	document.body.insertBefore(banner,document.body.childNodes[0]).style.zIndex = "3";
+	document.body.insertBefore(banner,document.body.childNodes[0]).style.position ="fixed";
+	document.body.insertBefore(banner,document.body.childNodes[0]).style.top = "0";
+	document.body.insertBefore(banner,document.body.childNodes[0]).style.left = "0";
+	document.body.insertBefore(banner,document.body.childNodes[0]).style.right = "0";
+	document.body.insertBefore(banner,document.body.childNodes[0]).style.margin = "0 auto";
+	document.body.insertBefore(banner,document.body.childNodes[0]).style.maxWidth = "1000px";
 }
 
