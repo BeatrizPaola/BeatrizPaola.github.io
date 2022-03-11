@@ -252,6 +252,14 @@ footer a{
 	
 	width:100%;	
 }
+	.img-summary section{
+	padding: 10px;
+	opacity: 0.9;
+    bottom:10px;
+    left:10px;
+}
+	.img-summary section p {
+		font-size:smaller;}
 .label:after {
     content: "Medium";
 }
@@ -292,6 +300,8 @@ footer a{
 		font-weight:bold;
 		background: radial-gradient(#eee,#ea6518);	
 	}
+	.img-summary section p {
+		font-size:initial;}
     .label:after {
         content: "Small";
     }
