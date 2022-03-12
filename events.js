@@ -58,7 +58,13 @@ function manageTasks(event) {
   console.log(event.target);
   console.log(event.currentTarget);
   // event.target will point to the actual icon clicked on. We need to get the parent li to work with however. HINT: Remember element.closest()? Look it up if you don't
-
+  const parent = event.target.closest("li");
+  if (event.target.dataset.function === "delete") {
+    removeTask(parent);
+  }
+  if (event.target.dataset.function === "complete") {
+    completeTask(parent);
+  }
   // because we added 'data-function="delete"' to each icon in a task we can access a dataset property on our target
   // use that in a couple of if statements to decide whether to run removeTask or completeTask
 }
