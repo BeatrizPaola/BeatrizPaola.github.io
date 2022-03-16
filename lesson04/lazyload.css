@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+[data-src] {
+    min-width: 50px;
+    min-height: 50px;
+    border: 1px solid red;
+    transition: opacity 250 ms ease-in, transform 400ms ease-in;
+}
