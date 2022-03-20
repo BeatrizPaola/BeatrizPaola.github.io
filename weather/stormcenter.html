@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Gallery Homepage">
+    <title>Beatriz Sandoval WDD230 Assigments</title>
+    <link rel= "stylesheet" href= "css/normalize.css"> 
+    <link rel="stylesheet" href="CSS/styles-preston.css">
+    <script defer="" src="js/preston.js"></script>
+    
+</head>
+    <body>
+    
+        <div id="content"> 
+                
+                <header class="header">
+                    <img class="logo" src="images/1530384_weather_evening_sun_sunset_icon.png" alt="logo">
+                    <h1 class="websitename">D-ligth</h1>
+                    <div class="motto">Always up to date!</div>
+                   <span class="menu-icon">Menu</span>
+                 </header>
+               
+                <nav>
+                    <ul class="navigation">
+                        
+                        <li><a href ="#">Home</a></li>
+                        <li><a href= "#">Preston</a></li>
+                        <li><a href= "#">Soda Spring</a></li>
+                        <li><a href= "#">Fish Haven</a></li>
+                        <li><a href= "#">Storm Center</a></li>
+                        <li><a href= "#">Gallery</a></li>
+                    </ul>
+                </nav>
+                  
+
+        <main>
+            <h1 class="title">
+                Storm Form
+            </h1>
+            
+                <div class="container">
+                    <form method="get" action="thanks.html">
+                        <fieldset>
+                            <legend>Contact Info</legend>
+                            <label class="top">Full Name*<input type="text" name="fname" required></label>
+                            <label class="top">Phone<input type="tel" name="phone" placeholder="123748342345"></label>
+                            <label class="top">E-mail*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                            <label class="top">Zip code*<input type="text" name="zcode" placeholder="00553" required></label>
+                        </fieldset>
+                        
+                        <fieldset>
+                            <legend>Storm Info</legend>
+                            <label class="top">Storm Date <input type="date" name="completeDate"></label>
+                            <label class="top">Storm Type
+                                <select mame ="storm">
+                                    <option value="">Please Select &#9662;</option>
+                                <option value="Flash Flood">Flash Flood</option>
+                                <option value="Hail">Hail</option>
+                                <option value="Huricane">Huricane</option>
+                                <option value="Thunderstorm">Thunderstorm</option>                                
+                                <option value="Tornado"> Tornado</option>
+                                </select>
+                            </label>
+                            <div class="rangeweather">
+                                <label class="top">Storm Severity Index (1-10) <span id="index"> </span></label>
+                                <label ><input type="range" id="severity" name="severity" value="5" min="1" max="10"  list="tickmarks">
+                                </label>
+                                <datalist id="tickmarks">
+                                    <option value="0">
+                                    <option value="1">
+                                    <option value="2">
+                                    <option value="3">
+                                    <option value="4">
+                                    <option value="5">
+                                    <option value="6">
+                                    <option value="7">
+                                    <option value="8">
+                                    <option value="9">
+                                    <option value="10">
+                                </datalist>
+                            </div>
+                            
+                            <label class="top">Region
+                                <select mame ="region">
+                                    <option hidden value="">Please Select a region &#9662;</option>
+                                <option value="Preston">Preston</option>
+                                <option value="SodaSpring">Soda Spring</option>
+                                <option value="FishHaven">Fish Haven</option>
+                                </select>
+                            </label>
+                
+                        </fieldset>
+                
+                        <fieldset>
+                            <legend>Danger Level</legend>
+                            <label class="top">Are you in danger of the event?</label>
+                            <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                            <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                            <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Other Comments</legend>
+                            <label class ="top">
+                                <textarea class="inputmessage" name="user_message" rows="10" cols="40"></textarea>
+                            </label>
+                        </fieldset>
+                        <input type="submit" value="Report Weather Event" class="submitBtn">
+                    </form>  
+                </div>
+            
+        </main>
+
+        
+        
+            <footer>
+                <div class ="upfooter">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.3608058917375!2d-111.87954548001615!3d42.09974291048228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7ecfeb7b869%3A0x8abd165683b62e8d!2sPreston%20Ave%2C%20Preston%2C%20ID%2083263%2C%20EE.%20UU.!5e0!3m2!1ses!2sbr!4v1646447604975!5m2!1ses!2sbr" width="400" height="280" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  <table class="personal_information">
+                      <tbody >
+                        <tr>
+                          <td><img src="images/8673639_ic_fluent_person_circle_filled_icon.png" alt="person icon" width="50"></td>
+                          <td>Beatriz Sandoval </td>
+                        </tr> 
+                        <tr>
+                          <td><img src="images/352510_local_phone_icon.png" alt="phone icon" width="50"></td>
+                          <td>999-234-0923</td>
+                        </tr>
+                        <tr>
+                          <td><img src="images/352521_location_on_icon.png" alt="localization icon" width="50"></td>
+                          <td>Preston Avenue, centro 123</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  <div class="media">
+                      <a href="https://www.facebook.com/tizzie.sandoval" target="_blank"><img src="images/5279111_network_fb_social media_facebook_facebook logo_icon.png" alt="facebook-icon"></a>
+                      <a href="https://www.instagram.com" target= "_blank"><img src="images/5279112_camera_instagram_social media_instagram logo_icon.png" alt="instagram-icon"></a>
+                      <a href="https://web.whatsapp.com" target= "_blank"><img src="images/287637_whatsapp_icon.png" alt="whatsapp-icon"></a>
+                  </div>
+                </div>
+                <a href="#" target="_blank">Terms of use</a>
+                  <p class ="info">&copy; <span id="copyright"></span> D-ligth | Beatriz P. Sandoval | Brigham Young Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a> 
+                      
+                      <span id="currentdate"></span>.</p>
+              
+             </footer>
+                <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>    
+                <script src="js/preston.js"></script>
+                <script src="js/gallery-7.js"></script>
+                <script src="js/formweather.js"></script>
+        
+        </div>
+    </body>
+</html>
