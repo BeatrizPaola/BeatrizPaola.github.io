@@ -246,8 +246,7 @@ form fieldset {
     border:1px solid #445ba9;
     border-radius: 9px; 
     padding: 1.5rem 5%;
-	width:500px;
-	
+	width:500px;	
 }
 
 form legend {
@@ -305,6 +304,10 @@ form label.top input:required:valid{
     border-left: green solid 6px;
 }
 
+#thanks{
+	height:300px;
+	max-width: 600px;
+	margin: 0 auto;}
 @media only screen and (max-width:855px){
 .menu-icon{
     display:block;
