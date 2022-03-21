@@ -21,7 +21,7 @@ function renderTasks(tasks) {
 
 function newTask() {
   // get the value entered into the #todo input
-  const tasks=document.querySelector('#todo').value;
+  const task=document.querySelector('#todo').value;
   // add it to our arrays tasks
   tasks.push ({ detail: task, completed: false });
   // render out the list.
