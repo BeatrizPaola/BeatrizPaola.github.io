@@ -47,6 +47,7 @@
     flex: 1 1 auto;
     border:1px solid #333;
     margin:10px;
+    background-color: rgb(255, 200, 129);
 }
 header{
     display: flex;
