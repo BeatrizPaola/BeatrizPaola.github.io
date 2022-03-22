@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@700&family=Spartan:wght@100&display=swap');
+
+.flex-home{
+    
+    display:flex;
+    flex-flow: row wrap;
+
+    max-width: 1010px;
+    margin: 0 auto;  
+    text-align: center;  
+    align-items: center;
+}
+
+.flex-home section{
+    display:block;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.flex-home img{
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+
+}
+
+.flex-home span{
+    font-size:10px;
+    padding:0px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.flex-home h2{
+    font-family: 'Skranji', cursive;
+    text-align:center;
+    font-size:35px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.flex-home div{
+    flex: 1 1 auto;
+    border:1px solid #333;
+    margin:10px;
+}
+header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #14213D;
+    color:white;
+    padding:10px;
+    max-width:1000px; 
+    margin:0 auto;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:2;
+    
+}
+main{
+    padding-top:14rem;
+z-index:1;}
+.content, .container{
+    
+    max-width:1000px; 
+    margin:0 auto;
+    
+}
+.content-box{
+    display:block;
+    margin:10px auto;
+    border: 1px dashed #000;
+    padding:15px;
+    background-color:#eee;
+    color:#444;
+    font-style: italic;
+    
+}
+h1{
+    font-size: 50px;
+    font-family: 'Skranji', cursive;
+}
+
+.title{
+    font-family: 'Skranji', cursive;
+    text-align:center;
+    font-size:45px;
+    
+}
+.motto{
+    font-size:20px;
+    padding:0px;
+    font-family: 'Spartan', sans-serif;
+        }
+p{
+    font-size:18px;
+    padding:0px;
+    font-family: 'Spartan', sans-serif;
+	font-weight: bolder;
+        }
+.logo{
+    width:150px;
+}
+.menu-icon{
+    display:none;
+}
+nav {
+    font-size:20px;
+    font-family:'Spartan', sans-serif;
+    background-color: #FFBA08;
+    max-width:1019px;
+    margin: 0 auto;
+    font-weight: bold;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    padding-top:10.7rem;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1;
+    text-align:center;
+}
+.navigation {
+    list-style: none;
+    margin:0;
+    padding:0;
+   
+    }
+
+.navigation li{
+    display: inline-block;
+}
+.navigation li a {
+    display:block;
+    
+    
+}
+.navigation a:hover{
+    background-color: #F36A08;
+    transition: 0.5s;}
+
+.navigation a{
+    display:block;
+    padding: 10px;
+}
+nav a{
+   text-decoration: none; 
+color:white;     
+}
+picture img{
+    width:100%;
+}
+.img-summary{
+    position:relative;
+    margin: 10px auto;
+}
+.img-summary section{
+	position: absolute;
+	background: radial-gradient(#eee, #FFBA08);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #333;
+	opacity: 0.9;
+    bottom:10px;
+    left:10px;
+}
+.label {
+    visibility: hidden;
+    position: absolute;
+    color: #ffd311;
+    top: 10px;
+    right: 30px;
+}
+
+.label:after {
+    visibility: Visible;
+    position: absolute;
+    color: #ffd311;
+    top: 10px;
+    right: 30px;
+    content: "Large";
+}
+.flex {
+    display:flex;
+    flex-flow: row wrap;
+    border:1px solid #333;
+}
+.container{
+    display:flex;
+    flex-flow: row wrap;}
+    
+.flex img{
+    width:150px;
+    padding: 0.1rem;  
+}
+.item img {
+    width:350px;
+    padding: 0.1rem; 
+}
+.flex-col{
+    flex: 1 1 auto;
+    background-color: antiquewhite;
+    text-align:center;
+    padding:15px;
+    font-size:1.2rem;
+    border-bottom: 1px solid #333;
+	border-left: 1px solid #333;   
+}
+.item{
+    flex: 1 1 auto;
+    background-color: #d6d5d0;
+    text-align:center;
+    padding:0px;
+    border: 1px solid #333;
+}
+.flex-col:hover, .item:hover{
+    
+	opacity: 0.80;
+	background-color: #14213D;
+	color: white;
+}
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+	text-align: center;}
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+.artimg{
+	float:right;
+	width:100%;
+	max-width:550px;
+	padding-left: 30px;
+	padding-bottom:15px;
+	
+}
+.artinfo{
+	padding-top:35px;
+	padding-bottom:35px;
+	padding-left: 10px;	
+	padding-right: 10px;
+	justify-content:center;
+}
+.personal_information{
+    padding:50px;
+}
+
+.media img{
+    width:40px;
+}
+.upfooter{
+    display:flex;
+    padding:10px;
+}
+footer
+{
+    margin: 10px auto;
+    position: relative;
+    background-color: #ea6518;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5em;
+    font-family:'Spartan', sans-serif;
+    font-weight:bolder;
+    padding:5px; 
+    max-width:1000px;
+    margin: 0 auto;
+}
+
+footer img{
+    width:25px;
+}
+footer a{
+    color:black;
+}
+/*-----FORM-----*/
+form{
+	font-family: 'Spartan', sans-serif;
+	font-weight:bolder;
+}
+form fieldset {
+    margin: 2rem 0;
+    border:1px solid #445ba9;
+    border-radius: 9px; 
+    padding: 1.5rem 5%;
+	width:500px;	
+}
+
+form legend {
+    color:#445ba9;
+    margin: 0 1 rem;
+    padding: 0 0.5rem;
+}
+form label.top, form div{
+    display:block;
+    padding-top: 1rem;
+    color: #ea6518;
+    font-size: .8rem;
+	
+}
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display:block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding:.75rem;
+    color:#555;
+    width:85%;
+    max-width:22rem;
+    background-color: rgba(0,0,0,0.1);
+}
+form label.sbs{
+    display:block;
+    padding:.75rem 0;
+    color:#555;
+}
+#index{
+	margin-left:50px;
+	outline: 1px solid #ea6518;
+	border-radius:1rem;
+	padding: .3rem .4rem;
+	
+}
+form input.submitBtn{
+    border:none;
+    background-color: #ea6518;
+    color:white;
+    border-radius: 1rem;
+    padding:.75rem 1.5rem;
+    margin:0 0 2rem 5%;
+    width:95%;
+    max-width:20rem;
+	font-family: 'Spartan', sans-serif;
+	font-weight:bolder;
+}
+form label.top input:required{
+    border-left: red solid 6px;
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+
+#thanks{
+	height:300px;
+	max-width: 600px;
+	margin: 0 auto;}
+
+    
+@media only screen and (max-width:855px){
+.menu-icon{
+    display:block;
+    cursor:pointer;
+    padding:0.5 rem 1 rem;
+    font-family:'Spartan', sans-serif;
+    margin-top:8rem;
+    font-size:larger;
+	font-weight:bolder;
+    
+}
+ .navigation li {
+    display: block;}
+    .navigation {
+        display:none;
+    }
+    .navigation.show{
+        display:block;
+    }
+
+.navigation a{
+    display:block;
+    padding: 10px;
+}
+.flex-home{
+    padding-top:14rem;
+    max-width: 1000px;
+    margin: 0.5rem auto;
+    align-items: center;
+	border:1px solid #bbb;
+    background-color: #eee;
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex-home div{
+    max-width: 1010px;
+    margin: 0.5rem auto;
+    display: flex;
+	flex-direction: row;
+    
+}
+.flex-home div:nth-child(odd) {
+	flex-direction: row-reverse;
+}
+
+.flex-home div section{ 
+    
+    padding:.75rem;
+    display: table-cell;
+    align-items:center;
+    
+    
+}
+	.artimg{
+	
+	width:100%;	
+}
+	.img-summary section{
+	padding: 10px;
+	opacity: 0.9;
+    bottom:10px;
+    left:10px;
+}
+	.img-summary section p {
+		font-size:smaller;}
+.label:after {
+    content: "Medium";
+}
+     .upfooter{
+        display:block;
+    }
+
+}
+@media (max-width:604px){
+    h1{
+    font-size: 30px;
+    font-family: 'Skranji', cursive;
+       
+}
+    header{
+        background-color: #ea6518;
+    }
+    .logo{
+    width:80px;}
+    
+    .menu-icon{
+    font-size:15px;
+    padding:0;
+	font-weight:bolder;
+    font-size: 1.5rem;
+    
+}
+    .motto{
+    font-size:15px;}
+    .upfooter{
+        display:block;
+    }
+
+    .flex-home img{
+        width: 50%;
+        height: auto;
+    }
+.flex-home section h2{
+    font-size:smaller;
+}
+.flex-home section p{
+    font-size:smaller;
+}
+    .img-summary section{
+        position: static;
+        opacity: 1;
+		padding:5px;
+		font-family: 'Spartan', sans-serif;
+		font-weight:bold;
+		background: radial-gradient(#eee,#ea6518);	
+	}
+	.img-summary section p {
+		font-size:initial;}
+    .label:after {
+        content: "Small";
+    }
+    .item img {
+        width:300px;
+    }
+	form fieldset {
+	width:100%;
+}
+	footer iframe{
+	width:100%;
+
+}
+}
