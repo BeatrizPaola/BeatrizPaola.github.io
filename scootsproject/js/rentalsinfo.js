@@ -9,8 +9,6 @@ fetch(requestURL)
         for (let i = 0; i < rentals.length; i++ ){
             {
             
-            let rentals = document.getElementById('sections');
-            rentals.className='rental';
             let lines=document.createElement('tr');
             let modelo=document.createElement('td')
             modelo.className='name';
@@ -36,8 +34,6 @@ fetch(requestURL)
             lines.appendChild(priceRFd);
             lines.appendChild(priceWiHd);
             lines.appendChild(priceWiFd);
-            
-            rentals.appendChild(lines);
             
 
             
