@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Poiret+One&family=Rammetto+One&display=swap');
+
+/*-----FOOTER-----*/
+footer
+{
+    margin: 10px auto;
+    position: relative;
+    background-color: #ff914d;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5em;
+    font-family:'Neucha', cursive;
+    font-weight:bolder;
+    padding:5px; 
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+footer img{
+    width:25px;
+}
+footer a{
+    color:black;
+}
