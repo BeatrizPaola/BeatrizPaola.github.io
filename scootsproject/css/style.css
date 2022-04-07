@@ -325,3 +325,129 @@ form label.top input:required:valid{
 	height:300px;
 	max-width: 600px;
 	margin: 0 auto;}
+
+    @media only screen and (max-width:855px){
+        .menu-icon{
+            display:block;
+            cursor:pointer;
+            padding:0.5 rem 1 rem;
+            font-family:'Spartan', sans-serif;
+            margin-top:8rem;
+            font-size:larger;
+            font-weight:bolder;
+            
+        }
+         .navigation li {
+            display: block;}
+            .navigation {
+                display:none;
+            }
+            .navigation.show{
+                display:block;
+            }
+        
+        .navigation a{
+            display:block;
+            padding: 10px;
+        }
+        .flexing{
+            padding-top:14rem;
+            max-width: 1000px;
+            margin: 0.5rem auto;
+            align-items: center;
+            border:1px solid #bbb;
+           
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .flex-home article{
+            max-width: 1010px;
+            margin: 0.5rem auto;
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .flex-home article:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+        
+        .flex-home div section{ 
+            
+            padding:.75rem;
+            display: table-cell;
+            align-items:center;
+            
+            
+        }
+            .artimg{
+            
+            width:100%;	
+        }
+       
+            .summary p {
+                font-size:smaller;}
+        .label:after {
+            content: "Medium";
+        }
+             .upfooter{
+                display:block;
+            }
+        
+        }
+        @media (max-width:604px){
+            h1{
+            font-size: 30px;
+            font-family: 'Skranji', cursive;
+               
+        }
+            header{
+                background-color: #ea6518;
+            }
+            .logo{
+            width:80px;}
+            
+            .menu-icon{
+            font-size:15px;
+            padding:0;
+            font-weight:bolder;
+            font-size: 1.5rem;
+            
+        }
+            .motto{
+            font-size:15px;}
+            .upfooter{
+                display:block;
+            }
+        
+           .flexing {
+               width:50%;
+               height:auto;
+           } 
+          
+       
+        .datas{
+            font-size:smaller;
+        }
+            .summary {
+                position: static;
+                opacity: 1;
+                padding:5px;
+                font-family: 'Spartan', sans-serif;
+                font-weight:bold;
+                background: radial-gradient(#eee,#ea6518);	
+            }
+            
+            .label:after {
+                content: "Small";
+            }
+            .item img {
+                width:300px;
+            }
+            form fieldset {
+            width:100%;
+        }
+            footer iframe{
+            width:100%;
+        
+        }
+        }        
